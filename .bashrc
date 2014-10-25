@@ -126,3 +126,4 @@ JP=/home/lxw/eclipse/java
 PATH=/home/lxw/Downloads/jdk1.8.0/bin:${PATH}
 #set the CLASSPATH
 export CLASSPATH=.:/home/lxw/eclipse/java/javaComLine
+java=/home/lxw/Java
