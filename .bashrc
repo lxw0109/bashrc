@@ -128,3 +128,5 @@ PATH=/home/lxw/Downloads/jdk1.8.0/bin:${PATH}
 export CLASSPATH=.:/home/lxw/eclipse/java/javaComLine
 java=/home/lxw/lxw0109/Java
 python=/home/lxw/lxw0109/Python
+am=/home/lxw/Desktop/apk-monitor/
+
