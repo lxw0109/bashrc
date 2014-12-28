@@ -107,26 +107,20 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #lxw
-#20140307
-#changes: clear --> cl
-alias cl='clear'
+#aliases
+alias cl="clear"
+alias gits="git status"
 
-#Make shell on "vi mode"
-set -o vi
-
-#cd $os
+#Easy to change work direcotry.
 os=/home/lxw/lxw0109/openSource
-#Python3/python
 py=/home/lxw/Downloads/Python3/python
-#eclipse
 eclipse=/home/lxw/lxw0109/software/eclipse/eclipse
-#java path
 JP=/home/lxw/eclipse/java
-#set the PATH
 PATH=/home/lxw/Downloads/jdk1.8.0/bin:${PATH}
-#set the CLASSPATH
 export CLASSPATH=.:/home/lxw/eclipse/java/javaComLine
 java=/home/lxw/lxw0109/Java
 python=/home/lxw/lxw0109/Python
 am=/home/lxw/Desktop/apk-monitor/
 
+#Make shell on "vi mode"
+set -o vi
